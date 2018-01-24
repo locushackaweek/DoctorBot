@@ -13,9 +13,38 @@
         <div class="outer-div">
             <div class="side-icon"></div>
             <div class="inner-div mdl-js-color-accent" id="dc-main-display-area">
+                    <div id="dc-questions">
+                        <div id="dc-d1" class="mdl-card__actions mdl-card--border">
+                            <div class="mdl-card__title-text">
+                                    Where does the itching occur?
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                            <form action="#">
+                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                                    <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                                    <span class="mdl-radio__label">Skin around face</span>
+                                  </label><br>
+                                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                                    <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                                    <span class="mdl-radio__label">All over the body</span>
+                                  </label><br>
+                                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+                                    <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="3">
+                                    <span class="mdl-radio__label">Genital parts only</span>
+                                  </label><br>
+                                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-4">
+                                    <input type="radio" id="option-4" class="mdl-radio__button" name="options" value="4">
+                                    <span class="mdl-radio__label">Scalp</span>
+                                  </label><br>
+                            </form>
+                            </div>
+                        </div>
 
+                        <div id="dc-d2" class="mdl-card__actions mdl-card--border">
 
-                    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                        </div>
+                    </div>
+                    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" id="dc-selection">
                             <div class="mdl-tabs__tab-bar">
                                 <a href="#head-panel" class="mdl-tabs__tab is-active">Head</a>
                                 <a href="#stomach-panel" class="mdl-tabs__tab">Stomach</a>
@@ -26,196 +55,208 @@
                                 <a href="#joints-panel" class="mdl-tabs__tab">Joints</a>
                             </div>
                           
-
+                            <form action="#">
                             <div class="mdl-tabs__panel is-active" id="head-panel">
-
-                                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+                                <center>
+                                <table>
                                     <thead>
                                     <tr>
-                                        <th class="mdl-data-table__cell--non-numeric">All</th>
+                                        <th>
+                                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                                        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+                                                        <span class="mdl-checkbox__label">All</span>
+                                                </label>
+                                        </th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Fever</td>
+                                        <td>
+                                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                                        <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                                                        <span class="mdl-checkbox__label">Fever</span>
+                                                </label>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Headache</td>
+                                        <td>
+                                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+                                                        <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+                                                        <span class="mdl-checkbox__label">Headache</span>
+                                                </label>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Eye Stress</td>
+                                        <td>
+                                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-4">
+                                                        <input type="checkbox" id="checkbox-4" class="mdl-checkbox__input">
+                                                        <span class="mdl-checkbox__label">Eye Stress</span>
+                                                </label>
+                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>
+                                </center>
 
                             </div>
 
                             <div class="mdl-tabs__panel" id="stomach-panel">
-
-                              <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-                                    <thead>
-                                    <tr>
-                                        <th class="mdl-data-table__cell--non-numeric">All</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Abdominal Pain</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Decreased Appetite</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Gastrointestinal Problem</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Cramps</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                            <div class="mdl-tabs__panel" id="muscle-panel">
-                                
-                                    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+                                <center>
+                                    <table>
                                             <thead>
                                             <tr>
-                                                <th class="mdl-data-table__cell--non-numeric">All</th>
+                                                <th>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-5">
+                                                                <input type="checkbox" id="checkbox-5" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">All</span>
+                                                        </label>
+                                                </th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td class="mdl-data-table__cell--non-numeric">Symptom 1</td>
+                                                <td>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-6">
+                                                                <input type="checkbox" id="checkbox-6" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">Abdominal pain</span>
+                                                        </label>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td class="mdl-data-table__cell--non-numeric">Symptom 2</td>
+                                                <td>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-7">
+                                                                <input type="checkbox" id="checkbox-7" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">Decreased appetite</span>
+                                                        </label>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td class="mdl-data-table__cell--non-numeric">Symptom 3</td>
+                                                <td>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-8">
+                                                                <input type="checkbox" id="checkbox-8" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">Gastrointestinal problem</span>
+                                                        </label>
+                                                </td>
                                             </tr>
+                                            <tr>
+                                                    <td>
+                                                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-9">
+                                                                    <input type="checkbox" id="checkbox-9" class="mdl-checkbox__input">
+                                                                    <span class="mdl-checkbox__label">Cramps</span>
+                                                            </label>
+                                                    </td>
+                                                </tr>
                                             </tbody>
                                         </table>
-                              
+                                    </center>
+
+                            </div>
+
+                            <div class="mdl-tabs__panel" id="muscle-panel">
+                              ...
                             </div>
 
                             <div class="mdl-tabs__panel" id="skin-panel">
-
-                                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-                                    <thead>
-                                    <tr>
-                                        <th class="mdl-data-table__cell--non-numeric">All</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Itching</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Dry skin</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Pimples</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Sunburn</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Rashes</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                <center>
+                                    <table>
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-10">
+                                                                <input type="checkbox" id="checkbox-10" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">All</span>
+                                                        </label>
+                                                </th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-11">
+                                                                <input type="checkbox" id="checkbox-11" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">Itching </span>
+                                                        </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-12">
+                                                                <input type="checkbox" id="checkbox-12" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">Dry skin</span>
+                                                        </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-13">
+                                                                <input type="checkbox" id="checkbox-13" class="mdl-checkbox__input">
+                                                                <span class="mdl-checkbox__label">Pimples</span>
+                                                        </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                    <td>
+                                                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-14">
+                                                                    <input type="checkbox" id="checkbox-14" class="mdl-checkbox__input">
+                                                                    <span class="mdl-checkbox__label">Sunburn</span>
+                                                            </label>
+                                                    </td>
+                                            </tr>
+                                            <tr>
+                                                    <td>
+                                                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-15">
+                                                                    <input type="checkbox" id="checkbox-15" class="mdl-checkbox__input">
+                                                                    <span class="mdl-checkbox__label">Rashes</span>
+                                                            </label>
+                                                    </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </center>
 
                             </div>
 
                             <div class="mdl-tabs__panel" id="eye-panel">
-
-                                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-                                    <thead>
-                                    <tr>
-                                        <th class="mdl-data-table__cell--non-numeric">All</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 1</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 2</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 3</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-
+                                ...
                             </div>
 
                             <div class="mdl-tabs__panel" id="hair-panel">
-
-                                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-                                    <thead>
-                                    <tr>
-                                        <th class="mdl-data-table__cell--non-numeric">All</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 1</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 2</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 3</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-
+                                ...
                             </div>
 
                             <div class="mdl-tabs__panel" id="joints-panel">
-
-                                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-                                    <thead>
-                                    <tr>
-                                        <th class="mdl-data-table__cell--non-numeric">All</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 1</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 2</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mdl-data-table__cell--non-numeric">Symptom 3</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-
+                                ...
                             </div>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" id="dc-submit"> 
+                                    Submit
+                            </button>
+                        </form>
                             
                     </div>
-
 
             </div>
         </div>
 
+        
+
         <div class="button-submit">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"  id="dc-submit-button">
-                <img src="style/imgs/search.png">
-            </button>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
-                Submit
-            </button>
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                  <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                    <i class="material-icons">search</i>
+                  </label>
+                  <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" id="sample6">
+                    <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                  </div>
+                </div>
+              </form>
         </div>
 
     </div>
 
   
-
+      <script src="js/onclick.js"></script>
       <script src="js/material.js"></script>
 </body>
 </html>
